@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    text-align: center;   /*But if we use this method for cenetering the divs, then it'll not be in the center if we change the width or height(dimensions) of the elements in that div*/
+    color: #40514E;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+/*h1 {
+    width: 10px;
+    margin: 0 auto 0 auto 0;   Here h1 needs to be positioned in the center horizantally so give 0's for top and bottom and auto for right and left ==> so that it take care of centering what ever the html element dimension.
+}                              Permanent solution for cenetering elements irrespective of what ever dimensions might be*/
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;      /*16px = 100% = 1em ==> So 90px = 90/16 = 5.625em  */
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 250px;
+    top: 60px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 270px;
+}
+
+.profile-photo {
+    height: 170px;
+    width: 170px;
+    margin-top: 20px;
+}
+
+.skills-gif {
+    width: 30%;     /* 30% of size of the parent */
+    height: 220px;
+    float: left;   /*The float property is used for positioning and formatting content e.g. let an image float left to the text in a container */ 
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+.Mimicry-gif {
+    width: 30%;     
+    height: 220px;
+    float: right;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.skill-row {
+    width: 50%;   /* Decreases width to 50% of screen size */
+    margin: 100px auto 100px auto;  /* To give 100px border on top and bottom and to place it in middle horizatally */
+    text-align: left;     /* For skill-row alone this text-align will override the text-align in the body */
+    line-height: 2;    /* line-height: 1; ==> Default*/
+}
+
+.profile {
+    width: 50%;
+    margin: 100px auto 100px auto; 
+}
+
+.btn {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 0px 1px 3px #66BFBF;
+    -webkit-box-shadow: 0px 1px 3px #66BFBF;
+    -moz-box-shadow: 0px 1px 3px #66BFBF;
+    box-shadow: 0px 1px 3px #66BFBF;
+    font-family: Georgia;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+.bottom-container {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #66BFBF;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+.ab {
+    margin: 40px auto 50px auto;
+    line-height: 2;
+}
+
+.Copy-Right {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0 20px 0;
+}
